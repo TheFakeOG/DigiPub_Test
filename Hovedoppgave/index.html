@@ -1,0 +1,49 @@
+<html lang="nor">
+<head>
+    <title>DigiPub test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css"></style>
+</head>
+<body>
+    <div class="col-sm-12">
+        <form id="form">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <input type="text" name="fn" placeholder="Fornavn*" required>
+                <span class="error" id="fnerr"></span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <input type="text" name="en" placeholder="Etternavn*" required>
+                <span class="error" id="enerr"></span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <input type="email" name="ep" placeholder="E-post">
+                <span class="error" id="eperr"></span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <input type="tel" name="tlf" placeholder="Telefonnummer*" required>
+                <span class="error" id="tlferr"></span>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input type="text" name="fd" placeholder="Fødselsdato (dd-mm-yyyy)*">
+                <span class="error" id="fderr"></span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <input type="button" onClick="submitForm()" value="Submit">
+            </div>
+        </form>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <table id="entries">
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="script.js"></script>
+</footer>
+</html>

@@ -1,0 +1,57 @@
+body {
+    position: relative;
+    background: #fff;
+    color: #594e4e;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 50%;
+    margin: auto;
+}
+form {
+    width: 100%;
+    text-align: center;
+    margin-top:50px;
+}
+input[type="button"] {
+    background-color: #44b1f4;
+    color: #fff;
+    text-transform: uppercase;
+}
+input {
+    padding: 20px 40px;
+    margin: 20px 10px;
+    border-color: transparent;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    color: #404040;
+    margin-bottom: 30px;
+    background-color: #e5e5e5;
+    padding: 18px 20px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 0;
+    width: 100%;
+    float: left;
+}
+input.error {
+    border-color: red;
+}
+table {
+    margin-top: 50px;
+}
+table, tbody, tr {
+    width: 100%;
+}
+tr.header {
+    border-bottom: 1px solid #404040;
+}
+tr:nth-child(odd):not(.header) {
+    background-color: #e5e5e5;
+}
+th, td {
+    width: 20%;
+    text-align: center;
+}
